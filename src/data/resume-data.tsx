@@ -22,7 +22,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Sravan S Nair",
   initials: "SSN",
-  location: "Allapuzha,Kochi",
+  location: "Mavelikara, Allapuzha, Kerala",
   locationLink: "https://maps.app.goo.gl/pMrrjhKvn65y737d8",
   about:
     "A Learner Focused on Learning Business and Technology",
@@ -61,15 +61,15 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Gtech Mulearn",
+      link: "https://mulearn.org/",
+      badges: ["Hybrid"],
+      title: "YIP Project Co-ordinator",
+      logo: mulearnlogo,
+      start: "June-2023",
+      end: "August-2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Worked as YIP Project Intern to drive the expansion of Young Innovators Programme initiatives by conducting comprehensive orientation classes across multiple colleges. Engaged in proactive discussions and brainstorming sessions with key stakeholders within various Kerala government departments, focusing on identifying and addressing their operational challenges",
     },
     {
       company: "Clevertech",
