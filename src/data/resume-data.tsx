@@ -16,7 +16,8 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
-} from "@/images/logos";
+  mulearnlogo,
+} from "@/images/logos"; // Ensure mulearnlogo is imported
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -24,8 +25,7 @@ export const RESUME_DATA = {
   initials: "SSN",
   location: "Mavelikara, Allapuzha, Kerala",
   locationLink: "https://maps.app.goo.gl/pMrrjhKvn65y737d8",
-  about:
-    "A Learner Focused on Learning Business and Technology",
+  about: "A Learner Focused on Learning Business and Technology",
   summary:
     "Dedicated learner with a strong focus on merging business and technology. Proven adaptability, analytical skills, and commitment to ongoing professional development. Ready to contribute innovative insights to enhance efficiency at the nexus of business and technology.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
@@ -53,8 +53,8 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      College: "Sree Buddha College of Enginnering",
-      degree: "Bachelor of Technology in Artificial intelligence and Machine Learning",
+      College: "Sree Buddha College of Engineering",
+      degree: "Bachelor of Technology in Artificial Intelligence and Machine Learning",
       start: "2020",
       end: "2024",
     },
@@ -65,214 +65,40 @@ export const RESUME_DATA = {
       link: "https://mulearn.org/",
       badges: ["Hybrid"],
       title: "YIP Project Co-ordinator",
-      logo: mulearnlogo,
-      start: "June-2023",
-      end: "August-2023",
+      logo: mulearnlogo, // Ensure this is defined or imported
+      start: "June 2023",
+      end: "August 2023",
       description:
-        "Worked as YIP Project Intern to drive the expansion of Young Innovators Programme initiatives by conducting comprehensive orientation classes across multiple colleges. Engaged in proactive discussions and brainstorming sessions with key stakeholders within various Kerala government departments, focusing on identifying and addressing their operational challenges",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Worked as YIP Project Intern to drive the expansion of Young Innovators Programme initiatives by conducting comprehensive orientation classes across multiple colleges. Engaged in proactive discussions and brainstorming sessions with key stakeholders within various Kerala government departments, focusing on identifying and addressing their operational challenges.",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "HTML",
+    "CSS",
+    "Python",
+    "I talk well",
+    "UI-UX",
+    "SQL",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Daily Progress Tracker",
+      techStack: ["Side Project", "JavaScript", "HTML-CSS", "Mongo-Db"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        "It's basically a Daily Success Tracker that asks if the scheduled task is completed or not and prompts for feedback. The feedback collected is then shown in a chart at the end of the week. It was developed to help me overcome my own procrastination, and it has been somewhat successful.",
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "AI Fitness Trainer",
+      techStack: ["Side Project", "Python", "OpenCV", "HTML-CSS"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        "AI fitness trainer employs cutting-edge OpenCV technology to monitor and analyze body movements during workouts. By accurately tracking repetitions and steps for a range of exercises, it offers personalized feedback on form and technique in real-time.",
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Video Speech Language Translator",
+      techStack: ["Side Project", "Python", "OpenCV", "Flask"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "This project pioneers a custom speech-to-speech translation system, seamlessly converting spoken Malayalam into English. Distinct from standard methods reliant on external APIs, we've engineered our solution using sequence-to-sequence (seq2seq) models. It covers audio extraction, transcription, translation, text-to-speech synthesis, and integrates into a Flask-based web app.",
     },
   ],
 } as const;
